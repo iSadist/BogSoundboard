@@ -9,7 +9,20 @@
 /* Begin PBXBuildFile section */
 		590884D521A303D4007255CD /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590884D421A303D4007255CD /* PremiumViewController.swift */; };
 		590884D721A305A0007255CD /* AudioUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590884D621A305A0007255CD /* AudioUtility.swift */; };
-		590884DA21A313FC007255CD /* dumpit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 590884D921A313FC007255CD /* dumpit.mp3 */; };
+		594F85A121A4497C0039B0A6 /* hesold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85A021A4497C0039B0A6 /* hesold.mp3 */; };
+		594F85A321A449840039B0A6 /* hebought.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85A221A449840039B0A6 /* hebought.mp3 */; };
+		594F85A721A449B90039B0A6 /* koreafud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85A621A449B90039B0A6 /* koreafud.mp3 */; };
+		594F85A921A44A400039B0A6 /* bullflag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85A821A44A400039B0A6 /* bullflag.mp3 */; };
+		594F85AB21A44A470039B0A6 /* vitalik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85AA21A44A470039B0A6 /* vitalik.mp3 */; };
+		594F85AD21A44A4F0039B0A6 /* dropvolume.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85AC21A44A4F0039B0A6 /* dropvolume.mp3 */; };
+		594F85AF21A44A570039B0A6 /* oogaboga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85AE21A44A570039B0A6 /* oogaboga.mp3 */; };
+		594F85B121A44A5E0039B0A6 /* printtether.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85B021A44A5E0039B0A6 /* printtether.mp3 */; };
+		594F85B321A44A640039B0A6 /* sleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85B221A44A640039B0A6 /* sleep.mp3 */; };
+		594F85B521A44A6B0039B0A6 /* mrmcdonald.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85B421A44A6B0039B0A6 /* mrmcdonald.mp3 */; };
+		594F85B721A44A740039B0A6 /* pompit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85B621A44A740039B0A6 /* pompit.mp3 */; };
+		594F85B921A44B410039B0A6 /* dumpit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85B821A44B410039B0A6 /* dumpit.mp3 */; };
+		594F85BB21A44C710039B0A6 /* buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85BA21A44C710039B0A6 /* buzz.mp3 */; };
+		594F85BD21A44DD10039B0A6 /* crashit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594F85BC21A44DD10039B0A6 /* crashit.mp3 */; };
 		59B136D721555A6500D69082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B136D621555A6500D69082 /* AppDelegate.swift */; };
 		59B136D921555A6500D69082 /* SoundBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B136D821555A6500D69082 /* SoundBoardViewController.swift */; };
 		59B136DC21555A6500D69082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B136DA21555A6500D69082 /* Main.storyboard */; };
@@ -39,7 +52,20 @@
 /* Begin PBXFileReference section */
 		590884D421A303D4007255CD /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
 		590884D621A305A0007255CD /* AudioUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUtility.swift; sourceTree = "<group>"; };
-		590884D921A313FC007255CD /* dumpit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dumpit.mp3; sourceTree = "<group>"; };
+		594F85A021A4497C0039B0A6 /* hesold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hesold.mp3; sourceTree = "<group>"; };
+		594F85A221A449840039B0A6 /* hebought.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hebought.mp3; sourceTree = "<group>"; };
+		594F85A621A449B90039B0A6 /* koreafud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = koreafud.mp3; sourceTree = "<group>"; };
+		594F85A821A44A400039B0A6 /* bullflag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullflag.mp3; sourceTree = "<group>"; };
+		594F85AA21A44A470039B0A6 /* vitalik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vitalik.mp3; sourceTree = "<group>"; };
+		594F85AC21A44A4F0039B0A6 /* dropvolume.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dropvolume.mp3; sourceTree = "<group>"; };
+		594F85AE21A44A570039B0A6 /* oogaboga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oogaboga.mp3; sourceTree = "<group>"; };
+		594F85B021A44A5E0039B0A6 /* printtether.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = printtether.mp3; sourceTree = "<group>"; };
+		594F85B221A44A640039B0A6 /* sleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sleep.mp3; sourceTree = "<group>"; };
+		594F85B421A44A6B0039B0A6 /* mrmcdonald.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrmcdonald.mp3; sourceTree = "<group>"; };
+		594F85B621A44A740039B0A6 /* pompit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pompit.mp3; sourceTree = "<group>"; };
+		594F85B821A44B410039B0A6 /* dumpit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dumpit.mp3; sourceTree = "<group>"; };
+		594F85BA21A44C710039B0A6 /* buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzz.mp3; sourceTree = "<group>"; };
+		594F85BC21A44DD10039B0A6 /* crashit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crashit.mp3; sourceTree = "<group>"; };
 		59B136D321555A6500D69082 /* BogdanovSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BogdanovSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B136D621555A6500D69082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59B136D821555A6500D69082 /* SoundBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoardViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +109,20 @@
 		590884D821A313EA007255CD /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				590884D921A313FC007255CD /* dumpit.mp3 */,
+				594F85B821A44B410039B0A6 /* dumpit.mp3 */,
+				594F85A021A4497C0039B0A6 /* hesold.mp3 */,
+				594F85A221A449840039B0A6 /* hebought.mp3 */,
+				594F85A621A449B90039B0A6 /* koreafud.mp3 */,
+				594F85A821A44A400039B0A6 /* bullflag.mp3 */,
+				594F85AA21A44A470039B0A6 /* vitalik.mp3 */,
+				594F85AC21A44A4F0039B0A6 /* dropvolume.mp3 */,
+				594F85AE21A44A570039B0A6 /* oogaboga.mp3 */,
+				594F85B021A44A5E0039B0A6 /* printtether.mp3 */,
+				594F85B221A44A640039B0A6 /* sleep.mp3 */,
+				594F85B421A44A6B0039B0A6 /* mrmcdonald.mp3 */,
+				594F85B621A44A740039B0A6 /* pompit.mp3 */,
+				594F85BA21A44C710039B0A6 /* buzz.mp3 */,
+				594F85BC21A44DD10039B0A6 /* crashit.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -246,10 +285,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F85A321A449840039B0A6 /* hebought.mp3 in Resources */,
+				594F85BB21A44C710039B0A6 /* buzz.mp3 in Resources */,
+				594F85B721A44A740039B0A6 /* pompit.mp3 in Resources */,
+				594F85AD21A44A4F0039B0A6 /* dropvolume.mp3 in Resources */,
 				59B136E121555A6700D69082 /* LaunchScreen.storyboard in Resources */,
+				594F85AF21A44A570039B0A6 /* oogaboga.mp3 in Resources */,
+				594F85B321A44A640039B0A6 /* sleep.mp3 in Resources */,
+				594F85B921A44B410039B0A6 /* dumpit.mp3 in Resources */,
 				59B136DE21555A6700D69082 /* Assets.xcassets in Resources */,
+				594F85A921A44A400039B0A6 /* bullflag.mp3 in Resources */,
 				59B136DC21555A6500D69082 /* Main.storyboard in Resources */,
-				590884DA21A313FC007255CD /* dumpit.mp3 in Resources */,
+				594F85AB21A44A470039B0A6 /* vitalik.mp3 in Resources */,
+				594F85A121A4497C0039B0A6 /* hesold.mp3 in Resources */,
+				594F85BD21A44DD10039B0A6 /* crashit.mp3 in Resources */,
+				594F85B521A44A6B0039B0A6 /* mrmcdonald.mp3 in Resources */,
+				594F85B121A44A5E0039B0A6 /* printtether.mp3 in Resources */,
+				594F85A721A449B90039B0A6 /* koreafud.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
