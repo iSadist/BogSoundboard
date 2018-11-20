@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Sound Board View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SoundBoardViewController" customModule="BogdanovSoundboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -201,7 +201,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="XwX-kp-deQ"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="XwX-kp-deQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -389,7 +389,7 @@
             </objects>
             <point key="canvasLocation" x="-450" y="573"/>
         </scene>
-        <!--Item-->
+        <!--Premium-->
         <scene sceneID="np4-OT-vjw">
             <objects>
                 <viewController id="UbA-4p-cFf" customClass="PremiumViewController" customModule="BogdanovSoundboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -425,7 +425,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vnv-Wz-TSQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="W8n-FB-jdK"/>
+                    <tabBarItem key="tabBarItem" title="Premium" id="W8n-FB-jdK"/>
                     <connections>
                         <outlet property="bogImageView" destination="mCt-ZP-kHs" id="v3n-On-8CP"/>
                     </connections>

@@ -9,6 +9,7 @@ import AVFoundation
 class PremiumViewController: UIViewController {
     
     @IBOutlet weak var bogImageView: UIImageView!
+    var audioPlayer: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,10 +17,22 @@ class PremiumViewController: UIViewController {
     }
     
     @IBAction func purchaseTapped(_ sender: UIBarButtonItem) {
-        bogImageView.isHidden = false
+        audioPlayer = AudioUtility.createAudioPlayer(filePath: "buzz")
+        audioPlayer?.play()
         vibratePhone()
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
-            self.vibratePhone()
+            self.audioPlayer = AudioUtility.createAudioPlayer(filePath: "hebought")
+            self.audioPlayer?.play()
+            self.bogImageView.isHidden = false
+        })
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
+            self.audioPlayer = AudioUtility.createAudioPlayer(filePath: "crashit")
+            self.audioPlayer?.play()
+        })
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
             self.crashApp()
         })
     }
