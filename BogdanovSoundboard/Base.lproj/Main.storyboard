@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Sound Board View Controller-->
+        <!--Wojak-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SoundBoardViewController" customModule="BogdanovSoundboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -201,7 +201,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="XwX-kp-deQ"/>
+                    <tabBarItem key="tabBarItem" title="Wojak" image="wojak" id="XwX-kp-deQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -227,7 +227,7 @@
             </objects>
             <point key="canvasLocation" x="-1202" y="-215"/>
         </scene>
-        <!--Item-->
+        <!--Boomer-->
         <scene sceneID="MzY-lc-zHs">
             <objects>
                 <viewController id="9cu-r3-2o4" customClass="SoundBoardViewController" customModule="BogdanovSoundboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -383,13 +383,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5pb-go-2cs"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="oA7-c6-VvQ"/>
+                    <tabBarItem key="tabBarItem" title="Boomer" image="boomer" id="oA7-c6-VvQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oed-hN-PDH" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-450" y="573"/>
         </scene>
-        <!--Premium-->
+        <!--Grug-->
         <scene sceneID="np4-OT-vjw">
             <objects>
                 <viewController id="UbA-4p-cFf" customClass="PremiumViewController" customModule="BogdanovSoundboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -425,7 +425,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vnv-Wz-TSQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Premium" id="W8n-FB-jdK"/>
+                    <tabBarItem key="tabBarItem" title="Grug" image="grug" id="W8n-FB-jdK"/>
                     <connections>
                         <outlet property="bogImageView" destination="mCt-ZP-kHs" id="v3n-On-8CP"/>
                     </connections>
@@ -434,7 +434,7 @@
             </objects>
             <point key="canvasLocation" x="365.60000000000002" y="572.56371814092961"/>
         </scene>
-        <!--Item-->
+        <!--Moon-->
         <scene sceneID="muU-5f-njf">
             <objects>
                 <viewController id="miI-CF-KbR" customClass="SoundBoardViewController" customModule="BogdanovSoundboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -626,7 +626,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kVN-Nb-rgy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="NEW-1m-GLQ"/>
+                    <tabBarItem key="tabBarItem" title="Moon" image="moon" id="NEW-1m-GLQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SyV-i8-5cO" sceneMemberID="firstResponder"/>
             </objects>
@@ -635,8 +635,12 @@
     </scenes>
     <resources>
         <image name="bog" width="98.160003662109375" height="146.8800048828125"/>
+        <image name="boomer" width="17.5" height="17.5"/>
+        <image name="grug" width="17.5" height="17.5"/>
+        <image name="moon" width="26.25" height="26.25"/>
         <image name="phone" width="368" height="500"/>
         <image name="phone2" width="276.75" height="433.5"/>
         <image name="purchase" width="37.5" height="37.5"/>
+        <image name="wojak" width="17.5" height="17.5"/>
     </resources>
 </document>
