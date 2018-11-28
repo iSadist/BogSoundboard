@@ -19,14 +19,9 @@ class SoundBoardViewController: UIViewController {
             .replacingOccurrences(of: "?", with: "")
             .replacingOccurrences(of: " ", with: "")
         
-        print(filePath)
-        
         let audioPlayer = AudioUtility.createAudioPlayer(filePath: filePath)
         
         currentAudioPlayer = audioPlayer
-        
-        print(currentAudioPlayer)
-        
         currentAudioPlayer?.play()
     }
     
