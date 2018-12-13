@@ -20,11 +20,11 @@ class PremiumViewController: UIViewController {
         audioPlayer = AudioUtility.createAudioPlayer(filePath: "buzz")
         audioPlayer?.play()
         vibratePhone()
+        self.bogImageView.isHidden = false
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
             self.audioPlayer = AudioUtility.createAudioPlayer(filePath: "hebought")
             self.audioPlayer?.play()
-            self.bogImageView.isHidden = false
         })
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {

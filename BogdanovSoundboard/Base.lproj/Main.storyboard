@@ -433,37 +433,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6uR-ow-I20">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="boomerBackground" translatesAutoresizingMaskIntoConstraints="NO" id="k9x-zx-H4R">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="matrix" translatesAutoresizingMaskIntoConstraints="NO" id="mCt-ZP-kHs">
+                                <rect key="frame" x="20" y="20" width="335" height="578"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR1-LA-jJO">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="Unlock premium sounds" id="mOu-hZ-e2z">
-                                        <barButtonItem key="rightBarButtonItem" title="Buy" image="purchase" id="fAd-77-otM">
+                                    <navigationItem title="Unlock premium sounds" id="F0m-Cq-OVq">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="purchase" id="pYb-nU-AXY">
                                             <connections>
-                                                <action selector="purchaseTapped:" destination="UbA-4p-cFf" id="I48-Bt-eGL"/>
+                                                <action selector="purchaseTapped:" destination="UbA-4p-cFf" id="L2k-Tb-m40"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boomerBackground" translatesAutoresizingMaskIntoConstraints="NO" id="k9x-zx-H4R">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone2" translatesAutoresizingMaskIntoConstraints="NO" id="mCt-ZP-kHs">
-                                <rect key="frame" x="20" y="84" width="335" height="514"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vnv-Wz-TSQ" firstAttribute="trailing" secondItem="mCt-ZP-kHs" secondAttribute="trailing" constant="20" id="4N0-32-QJw"/>
-                            <constraint firstItem="k9x-zx-H4R" firstAttribute="top" secondItem="6uR-ow-I20" secondAttribute="bottom" id="5MS-YR-7tb"/>
-                            <constraint firstItem="k9x-zx-H4R" firstAttribute="bottom" secondItem="vnv-Wz-TSQ" secondAttribute="bottom" id="PaY-HW-VlT"/>
-                            <constraint firstItem="6uR-ow-I20" firstAttribute="top" secondItem="vnv-Wz-TSQ" secondAttribute="top" id="SON-Nf-S0d"/>
-                            <constraint firstAttribute="trailing" secondItem="6uR-ow-I20" secondAttribute="trailing" id="Wo9-tK-O5g"/>
-                            <constraint firstItem="6uR-ow-I20" firstAttribute="leading" secondItem="Jgf-jJ-8eO" secondAttribute="leading" id="bnb-z0-Fdx"/>
-                            <constraint firstItem="mCt-ZP-kHs" firstAttribute="top" secondItem="6uR-ow-I20" secondAttribute="bottom" constant="20" id="ea0-1k-dwO"/>
+                            <constraint firstItem="vnv-Wz-TSQ" firstAttribute="leading" secondItem="k9x-zx-H4R" secondAttribute="leading" id="6uU-eF-fni"/>
+                            <constraint firstItem="vnv-Wz-TSQ" firstAttribute="top" secondItem="mCt-ZP-kHs" secondAttribute="top" id="AbC-bL-CNB"/>
+                            <constraint firstItem="vnv-Wz-TSQ" firstAttribute="trailing" secondItem="gR1-LA-jJO" secondAttribute="trailing" id="Adp-D9-f9P"/>
+                            <constraint firstItem="vnv-Wz-TSQ" firstAttribute="trailing" secondItem="k9x-zx-H4R" secondAttribute="trailing" id="Itm-jc-OJ5"/>
+                            <constraint firstItem="k9x-zx-H4R" firstAttribute="top" secondItem="vnv-Wz-TSQ" secondAttribute="top" id="IuG-uL-b6A"/>
+                            <constraint firstItem="gR1-LA-jJO" firstAttribute="top" secondItem="vnv-Wz-TSQ" secondAttribute="top" id="XhY-hJ-yA1"/>
                             <constraint firstItem="mCt-ZP-kHs" firstAttribute="leading" secondItem="vnv-Wz-TSQ" secondAttribute="leading" constant="20" id="npe-6I-Vyx"/>
-                            <constraint firstItem="k9x-zx-H4R" firstAttribute="leading" secondItem="6uR-ow-I20" secondAttribute="leading" id="t64-cq-xIx"/>
-                            <constraint firstItem="k9x-zx-H4R" firstAttribute="trailing" secondItem="6uR-ow-I20" secondAttribute="trailing" id="xrN-5w-cA4"/>
+                            <constraint firstItem="gR1-LA-jJO" firstAttribute="leading" secondItem="vnv-Wz-TSQ" secondAttribute="leading" id="sbz-k3-tc0"/>
+                            <constraint firstItem="vnv-Wz-TSQ" firstAttribute="bottom" secondItem="k9x-zx-H4R" secondAttribute="bottom" id="ulu-yM-U5J"/>
                             <constraint firstItem="vnv-Wz-TSQ" firstAttribute="bottom" secondItem="mCt-ZP-kHs" secondAttribute="bottom" constant="20" id="yS4-2C-qCd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vnv-Wz-TSQ"/>
@@ -485,7 +485,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone2" translatesAutoresizingMaskIntoConstraints="NO" id="VPy-el-gbx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="matrix" translatesAutoresizingMaskIntoConstraints="NO" id="VPy-el-gbx">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XY0-W1-HHT">
@@ -677,14 +677,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="boomer" width="17.5" height="17.5"/>
-        <image name="boomerBackground" width="689.5" height="939"/>
-        <image name="grug" width="17.5" height="17.5"/>
-        <image name="grugBackground" width="425" height="583"/>
-        <image name="moon" width="26.25" height="26.25"/>
-        <image name="phone2" width="276.75" height="433.5"/>
-        <image name="purchase" width="37.5" height="37.5"/>
-        <image name="wojak" width="17.5" height="17.5"/>
-        <image name="wojakBackground" width="634" height="939.5"/>
+        <image name="boomer" width="35" height="35"/>
+        <image name="boomerBackground" width="1379" height="1878"/>
+        <image name="grug" width="35" height="35"/>
+        <image name="grugBackground" width="850" height="1166"/>
+        <image name="matrix" width="909" height="1217"/>
+        <image name="moon" width="35" height="35"/>
+        <image name="purchase" width="50" height="50"/>
+        <image name="wojak" width="35" height="35"/>
+        <image name="wojakBackground" width="1268" height="1879"/>
     </resources>
 </document>
