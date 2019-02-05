@@ -52,6 +52,8 @@
 		59B136F721555A6700D69082 /* BogdanovSoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B136F621555A6700D69082 /* BogdanovSoundboardUITests.swift */; };
 		8E28EA293A2F27D316E9E7D4 /* Pods_BogdanovSoundboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */; };
 		C96DA370415EB078879B98EB /* Pods_BogdanovSoundboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F0CB6E67F7058F17E76B5 /* Pods_BogdanovSoundboardUITests.framework */; };
+		E1C1A2B3220A0171003694C5 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1A2B2220A0171003694C5 /* AdBannerView.swift */; };
+		E1C1A2B7220A100E003694C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1C1A2B6220A100E003694C5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,8 @@
 		C26BD0355F3362954911591A /* Pods-BogdanovSoundboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardTests/Pods-BogdanovSoundboardTests.release.xcconfig"; sourceTree = "<group>"; };
 		CD6DF50032976B4C6B2B7CF8 /* Pods-BogdanovSoundboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardUITests/Pods-BogdanovSoundboardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BogdanovSoundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C1A2B2220A0171003694C5 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		E1C1A2B6220A100E003694C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F27E18793D1F3685B2C225E4 /* Pods-BogdanovSoundboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardUITests/Pods-BogdanovSoundboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDC979A1762AA14AC325EAF9 /* Pods-BogdanovSoundboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardTests/Pods-BogdanovSoundboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,6 +247,8 @@
 				59B136E221555A6700D69082 /* Info.plist */,
 				590884D421A303D4007255CD /* PremiumViewController.swift */,
 				590884D621A305A0007255CD /* AudioUtility.swift */,
+				E1C1A2B2220A0171003694C5 /* AdBannerView.swift */,
+				E1C1A2B6220A100E003694C5 /* GoogleService-Info.plist */,
 			);
 			path = BogdanovSoundboard;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				594D15DA21ADADC700049609 /* what.mp3 in Resources */,
 				594F85B721A44A740039B0A6 /* pompit.mp3 in Resources */,
 				594F85AD21A44A4F0039B0A6 /* dropvolume.mp3 in Resources */,
+				E1C1A2B7220A100E003694C5 /* GoogleService-Info.plist in Resources */,
 				594D15F721ADB5BE00049609 /* quake3.mp3 in Resources */,
 				59B136E121555A6700D69082 /* LaunchScreen.storyboard in Resources */,
 				594F85AF21A44A570039B0A6 /* oogaboga.mp3 in Resources */,
@@ -540,6 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				590884D521A303D4007255CD /* PremiumViewController.swift in Sources */,
+				E1C1A2B3220A0171003694C5 /* AdBannerView.swift in Sources */,
 				59B136D921555A6500D69082 /* SoundBoardViewController.swift in Sources */,
 				59B136D721555A6500D69082 /* AppDelegate.swift in Sources */,
 				590884D721A305A0007255CD /* AudioUtility.swift in Sources */,

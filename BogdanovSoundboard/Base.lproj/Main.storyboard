@@ -140,6 +140,14 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WK9-1v-i9C"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUO-dH-REj" customClass="GADBannerView">
+                                <rect key="frame" x="27.5" y="15" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dIW-tu-nPT"/>
+                                    <constraint firstAttribute="width" constant="320" id="ryu-We-lev"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -180,12 +188,14 @@
                             <constraint firstItem="O0B-25-DZZ" firstAttribute="centerY" secondItem="6cX-p3-mHx" secondAttribute="centerY" id="cBI-ya-UPV"/>
                             <constraint firstItem="6Ep-J8-RQ1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dHo-a6-luz"/>
                             <constraint firstItem="vG2-Dl-ABm" firstAttribute="centerY" secondItem="6cX-p3-mHx" secondAttribute="centerY" id="dq8-mj-6sO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="kUO-dH-REj" secondAttribute="top" constant="5" id="f8z-mT-GRX"/>
                             <constraint firstItem="q7q-wm-jKa" firstAttribute="width" secondItem="qfU-Qx-RUL" secondAttribute="width" id="h8m-yw-f9n"/>
                             <constraint firstItem="vG2-Dl-ABm" firstAttribute="height" secondItem="6Ep-J8-RQ1" secondAttribute="height" id="hPJ-nk-wYr"/>
                             <constraint firstItem="q7q-wm-jKa" firstAttribute="top" secondItem="6cX-p3-mHx" secondAttribute="bottom" constant="8" id="ibt-aq-9yC"/>
                             <constraint firstItem="qfU-Qx-RUL" firstAttribute="centerY" secondItem="q7q-wm-jKa" secondAttribute="centerY" id="jNW-4E-VOC"/>
                             <constraint firstItem="zTF-Vw-tn6" firstAttribute="height" secondItem="6Ep-J8-RQ1" secondAttribute="height" id="ksS-F3-F3k"/>
                             <constraint firstAttribute="trailing" secondItem="8qP-aj-T8s" secondAttribute="trailing" id="lkF-0R-MJY"/>
+                            <constraint firstItem="kUO-dH-REj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="n6g-XG-Kwd"/>
                             <constraint firstItem="TQY-1D-UQ8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qJy-ob-Y06"/>
                             <constraint firstItem="vG2-Dl-ABm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qTk-Mt-l0V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O0B-25-DZZ" secondAttribute="trailing" constant="16" id="qxg-qk-EZV"/>
@@ -202,10 +212,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Wojak" image="wojak" id="XwX-kp-deQ"/>
+                    <connections>
+                        <outlet property="bannerView" destination="kUO-dH-REj" id="8NN-71-Hof"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1951" y="573"/>
+            <point key="canvasLocation" x="-1951.2" y="572.56371814092961"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ESV-pX-62J">
@@ -358,11 +371,20 @@
                                     <action selector="buttonTapped:" destination="9cu-r3-2o4" eventType="touchUpInside" id="Ydh-3t-qgD"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nTl-DI-ng5" customClass="GADBannerView">
+                                <rect key="frame" x="27.5" y="20" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="KeF-cM-zgY"/>
+                                    <constraint firstAttribute="height" constant="50" id="pJ1-Bt-gwN"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5pb-go-2cs" firstAttribute="trailing" secondItem="eZm-ig-Gu0" secondAttribute="trailing" constant="16" id="08Z-vZ-aYf"/>
                             <constraint firstItem="tAN-WM-iYh" firstAttribute="bottom" secondItem="5pb-go-2cs" secondAttribute="bottom" id="0o3-Bt-dbo"/>
+                            <constraint firstItem="nTl-DI-ng5" firstAttribute="centerX" secondItem="5pb-go-2cs" secondAttribute="centerX" id="109-Jv-PWY"/>
                             <constraint firstItem="u1j-LC-da0" firstAttribute="centerY" secondItem="rec-Sf-w0U" secondAttribute="centerY" id="1MR-b6-K78"/>
                             <constraint firstItem="eZm-ig-Gu0" firstAttribute="centerY" secondItem="z4H-VO-iSZ" secondAttribute="centerY" id="3me-sS-SHu"/>
                             <constraint firstItem="BlU-C0-1pL" firstAttribute="height" secondItem="U0t-V6-KTw" secondAttribute="height" id="3uc-P9-4g4"/>
@@ -381,6 +403,7 @@
                             <constraint firstItem="5pb-go-2cs" firstAttribute="trailing" secondItem="u1j-LC-da0" secondAttribute="trailing" constant="16" id="E1t-UJ-0Nf"/>
                             <constraint firstItem="BlU-C0-1pL" firstAttribute="width" secondItem="U0t-V6-KTw" secondAttribute="width" id="Hla-qf-VR5"/>
                             <constraint firstItem="VfT-aZ-IL4" firstAttribute="height" secondItem="U0t-V6-KTw" secondAttribute="height" id="It3-Az-60l"/>
+                            <constraint firstItem="nTl-DI-ng5" firstAttribute="top" secondItem="5pb-go-2cs" secondAttribute="top" id="M83-Wn-x2t"/>
                             <constraint firstItem="kpU-hC-V7r" firstAttribute="centerY" secondItem="z4H-VO-iSZ" secondAttribute="centerY" id="NC6-Zo-3sL"/>
                             <constraint firstItem="v7q-CU-Te8" firstAttribute="centerY" secondItem="vIn-xB-H2E" secondAttribute="centerY" id="NKa-Es-2dB"/>
                             <constraint firstItem="vIn-xB-H2E" firstAttribute="leading" secondItem="VfT-aZ-IL4" secondAttribute="trailing" id="NZu-c2-YoZ"/>
@@ -420,6 +443,9 @@
                         <viewLayoutGuide key="safeArea" id="5pb-go-2cs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Boomer" image="boomer" id="oA7-c6-VvQ"/>
+                    <connections>
+                        <outlet property="bannerView" destination="nTl-DI-ng5" id="IfL-P1-eP9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oed-hN-PDH" sceneMemberID="firstResponder"/>
             </objects>
@@ -608,9 +634,18 @@
                                     <action selector="buttonTapped:" destination="miI-CF-KbR" eventType="touchUpInside" id="rEt-eT-xbJ"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dK8-uz-Vxc" customClass="GADBannerView">
+                                <rect key="frame" x="27.5" y="20" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1in-nD-eHn"/>
+                                    <constraint firstAttribute="width" constant="320" id="P2m-CU-yHS"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dK8-uz-Vxc" firstAttribute="top" secondItem="kVN-Nb-rgy" secondAttribute="top" id="0Ay-OZ-zZ5"/>
                             <constraint firstItem="Ttx-yj-v36" firstAttribute="leading" secondItem="Nzj-wm-CIy" secondAttribute="trailing" id="18M-x1-7yR"/>
                             <constraint firstItem="PHR-Un-aeS" firstAttribute="leading" secondItem="Ttx-yj-v36" secondAttribute="trailing" id="4NS-MM-QNT"/>
                             <constraint firstItem="Hd0-bc-hEN" firstAttribute="height" secondItem="XY0-W1-HHT" secondAttribute="height" id="4p7-dV-2rU"/>
@@ -627,6 +662,7 @@
                             <constraint firstItem="d1S-um-TeI" firstAttribute="leading" secondItem="Pqt-82-EU8" secondAttribute="trailing" id="JqD-Bl-Bm4"/>
                             <constraint firstItem="JKY-Es-Oy2" firstAttribute="top" secondItem="Pqt-82-EU8" secondAttribute="bottom" constant="8" id="Kw5-Ng-JO1"/>
                             <constraint firstItem="Pqt-82-EU8" firstAttribute="centerX" secondItem="Hd0-bc-hEN" secondAttribute="centerX" id="MaF-y2-woa"/>
+                            <constraint firstItem="dK8-uz-Vxc" firstAttribute="centerX" secondItem="kVN-Nb-rgy" secondAttribute="centerX" id="NnC-bi-qiJ"/>
                             <constraint firstItem="d1S-um-TeI" firstAttribute="height" secondItem="XY0-W1-HHT" secondAttribute="height" id="O4E-Uz-Chq"/>
                             <constraint firstItem="dGr-X6-nqQ" firstAttribute="width" secondItem="XY0-W1-HHT" secondAttribute="width" id="Q5M-n0-wci"/>
                             <constraint firstItem="VPy-el-gbx" firstAttribute="top" secondItem="uLY-pH-gTN" secondAttribute="top" id="SpP-d1-DJ3"/>
@@ -670,6 +706,9 @@
                         <viewLayoutGuide key="safeArea" id="kVN-Nb-rgy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Moon" image="moon" id="NEW-1m-GLQ"/>
+                    <connections>
+                        <outlet property="bannerView" destination="dK8-uz-Vxc" id="I4U-6x-F9Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SyV-i8-5cO" sceneMemberID="firstResponder"/>
             </objects>
