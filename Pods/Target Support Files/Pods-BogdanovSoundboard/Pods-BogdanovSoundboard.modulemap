@@ -1,0 +1,6 @@
+framework module Pods_BogdanovSoundboard {
+  umbrella header "Pods-BogdanovSoundboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490BD1A9F46211C48A379933 /* Pods_BogdanovSoundboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9750F94F8798A3014A7882A /* Pods_BogdanovSoundboardTests.framework */; };
 		590884D521A303D4007255CD /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590884D421A303D4007255CD /* PremiumViewController.swift */; };
 		590884D721A305A0007255CD /* AudioUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590884D621A305A0007255CD /* AudioUtility.swift */; };
 		594D15DA21ADADC700049609 /* what.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 594D15D921ADADC700049609 /* what.mp3 */; };
@@ -49,6 +50,8 @@
 		59B136E121555A6700D69082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B136DF21555A6700D69082 /* LaunchScreen.storyboard */; };
 		59B136EC21555A6700D69082 /* BogdanovSoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B136EB21555A6700D69082 /* BogdanovSoundboardTests.swift */; };
 		59B136F721555A6700D69082 /* BogdanovSoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B136F621555A6700D69082 /* BogdanovSoundboardUITests.swift */; };
+		8E28EA293A2F27D316E9E7D4 /* Pods_BogdanovSoundboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */; };
+		C96DA370415EB078879B98EB /* Pods_BogdanovSoundboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F0CB6E67F7058F17E76B5 /* Pods_BogdanovSoundboardUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25C42902AEE285B43F47E93E /* Pods-BogdanovSoundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard.debug.xcconfig"; sourceTree = "<group>"; };
+		359F0CB6E67F7058F17E76B5 /* Pods_BogdanovSoundboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BogdanovSoundboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D38E08C819565032AE56A7 /* Pods-BogdanovSoundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard.release.xcconfig"; sourceTree = "<group>"; };
 		590884D421A303D4007255CD /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
 		590884D621A305A0007255CD /* AudioUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUtility.swift; sourceTree = "<group>"; };
 		594D15D921ADADC700049609 /* what.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = what.mp3; sourceTree = "<group>"; };
@@ -117,6 +123,12 @@
 		59B136F221555A6700D69082 /* BogdanovSoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BogdanovSoundboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B136F621555A6700D69082 /* BogdanovSoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BogdanovSoundboardUITests.swift; sourceTree = "<group>"; };
 		59B136F821555A6700D69082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9750F94F8798A3014A7882A /* Pods_BogdanovSoundboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BogdanovSoundboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26BD0355F3362954911591A /* Pods-BogdanovSoundboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardTests/Pods-BogdanovSoundboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD6DF50032976B4C6B2B7CF8 /* Pods-BogdanovSoundboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardUITests/Pods-BogdanovSoundboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BogdanovSoundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27E18793D1F3685B2C225E4 /* Pods-BogdanovSoundboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardUITests/Pods-BogdanovSoundboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC979A1762AA14AC325EAF9 /* Pods-BogdanovSoundboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardTests/Pods-BogdanovSoundboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E28EA293A2F27D316E9E7D4 /* Pods_BogdanovSoundboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490BD1A9F46211C48A379933 /* Pods_BogdanovSoundboardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +152,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96DA370415EB078879B98EB /* Pods_BogdanovSoundboardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C242576D6367C041B6A612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */,
+				B9750F94F8798A3014A7882A /* Pods_BogdanovSoundboardTests.framework */,
+				359F0CB6E67F7058F17E76B5 /* Pods_BogdanovSoundboardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		590884D821A313EA007255CD /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +216,8 @@
 				59B136EA21555A6700D69082 /* BogdanovSoundboardTests */,
 				59B136F521555A6700D69082 /* BogdanovSoundboardUITests */,
 				59B136D421555A6500D69082 /* Products */,
+				C26B9C3B38B3F101C418B618 /* Pods */,
+				08C242576D6367C041B6A612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +265,19 @@
 			path = BogdanovSoundboardUITests;
 			sourceTree = "<group>";
 		};
+		C26B9C3B38B3F101C418B618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25C42902AEE285B43F47E93E /* Pods-BogdanovSoundboard.debug.xcconfig */,
+				50D38E08C819565032AE56A7 /* Pods-BogdanovSoundboard.release.xcconfig */,
+				FDC979A1762AA14AC325EAF9 /* Pods-BogdanovSoundboardTests.debug.xcconfig */,
+				C26BD0355F3362954911591A /* Pods-BogdanovSoundboardTests.release.xcconfig */,
+				F27E18793D1F3685B2C225E4 /* Pods-BogdanovSoundboardUITests.debug.xcconfig */,
+				CD6DF50032976B4C6B2B7CF8 /* Pods-BogdanovSoundboardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59B136FB21555A6700D69082 /* Build configuration list for PBXNativeTarget "BogdanovSoundboard" */;
 			buildPhases = (
+				93562F20328EAC3C54880908 /* [CP] Check Pods Manifest.lock */,
 				59B136CF21555A6500D69082 /* Sources */,
 				59B136D021555A6500D69082 /* Frameworks */,
 				59B136D121555A6500D69082 /* Resources */,
+				469980F0551E24F1D168A899 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59B136FE21555A6700D69082 /* Build configuration list for PBXNativeTarget "BogdanovSoundboardTests" */;
 			buildPhases = (
+				F4D0B64DD0AE2B7C3B0A31DE /* [CP] Check Pods Manifest.lock */,
 				59B136E321555A6700D69082 /* Sources */,
 				59B136E421555A6700D69082 /* Frameworks */,
 				59B136E521555A6700D69082 /* Resources */,
@@ -280,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59B1370121555A6700D69082 /* Build configuration list for PBXNativeTarget "BogdanovSoundboardUITests" */;
 			buildPhases = (
+				0CACE42261A3FD44EA2204A5 /* [CP] Check Pods Manifest.lock */,
 				59B136EE21555A6700D69082 /* Sources */,
 				59B136EF21555A6700D69082 /* Frameworks */,
 				59B136F021555A6700D69082 /* Resources */,
@@ -396,6 +440,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CACE42261A3FD44EA2204A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BogdanovSoundboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469980F0551E24F1D168A899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93562F20328EAC3C54880908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BogdanovSoundboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D0B64DD0AE2B7C3B0A31DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BogdanovSoundboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59B136CF21555A6500D69082 /* Sources */ = {
@@ -578,6 +715,7 @@
 		};
 		59B136FC21555A6700D69082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C42902AEE285B43F47E93E /* Pods-BogdanovSoundboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -598,6 +736,7 @@
 		};
 		59B136FD21555A6700D69082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D38E08C819565032AE56A7 /* Pods-BogdanovSoundboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -618,6 +757,7 @@
 		};
 		59B136FF21555A6700D69082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC979A1762AA14AC325EAF9 /* Pods-BogdanovSoundboardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -638,6 +778,7 @@
 		};
 		59B1370021555A6700D69082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26BD0355F3362954911591A /* Pods-BogdanovSoundboardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -658,6 +799,7 @@
 		};
 		59B1370221555A6700D69082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27E18793D1F3685B2C225E4 /* Pods-BogdanovSoundboardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -677,6 +819,7 @@
 		};
 		59B1370321555A6700D69082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6DF50032976B4C6B2B7CF8 /* Pods-BogdanovSoundboardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
