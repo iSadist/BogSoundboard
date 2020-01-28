@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,7 +53,6 @@
 		8E28EA293A2F27D316E9E7D4 /* Pods_BogdanovSoundboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */; };
 		C96DA370415EB078879B98EB /* Pods_BogdanovSoundboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359F0CB6E67F7058F17E76B5 /* Pods_BogdanovSoundboardUITests.framework */; };
 		E1C1A2B3220A0171003694C5 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1A2B2220A0171003694C5 /* AdBannerView.swift */; };
-		E1C1A2B7220A100E003694C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1C1A2B6220A100E003694C5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +111,7 @@
 		594F85B821A44B410039B0A6 /* dumpit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dumpit.mp3; sourceTree = "<group>"; };
 		594F85BA21A44C710039B0A6 /* buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzz.mp3; sourceTree = "<group>"; };
 		594F85BC21A44DD10039B0A6 /* crashit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crashit.mp3; sourceTree = "<group>"; };
-		59B136D321555A6500D69082 /* BogdanovSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BogdanovSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B136D321555A6500D69082 /* Bogged.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bogged.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B136D621555A6500D69082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59B136D821555A6500D69082 /* SoundBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoardViewController.swift; sourceTree = "<group>"; };
 		59B136DB21555A6500D69082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 		CD6DF50032976B4C6B2B7CF8 /* Pods-BogdanovSoundboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardUITests/Pods-BogdanovSoundboardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB90095404F0BFB2CD9000A0 /* Pods_BogdanovSoundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BogdanovSoundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C1A2B2220A0171003694C5 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
-		E1C1A2B6220A100E003694C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F27E18793D1F3685B2C225E4 /* Pods-BogdanovSoundboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardUITests/Pods-BogdanovSoundboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDC979A1762AA14AC325EAF9 /* Pods-BogdanovSoundboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BogdanovSoundboardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BogdanovSoundboardTests/Pods-BogdanovSoundboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,7 +226,7 @@
 		59B136D421555A6500D69082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59B136D321555A6500D69082 /* BogdanovSoundboard.app */,
+				59B136D321555A6500D69082 /* Bogged.app */,
 				59B136E721555A6700D69082 /* BogdanovSoundboardTests.xctest */,
 				59B136F221555A6700D69082 /* BogdanovSoundboardUITests.xctest */,
 			);
@@ -248,7 +246,6 @@
 				590884D421A303D4007255CD /* PremiumViewController.swift */,
 				590884D621A305A0007255CD /* AudioUtility.swift */,
 				E1C1A2B2220A0171003694C5 /* AdBannerView.swift */,
-				E1C1A2B6220A100E003694C5 /* GoogleService-Info.plist */,
 			);
 			path = BogdanovSoundboard;
 			sourceTree = "<group>";
@@ -303,7 +300,7 @@
 			);
 			name = BogdanovSoundboard;
 			productName = BogdanovSoundboard;
-			productReference = 59B136D321555A6500D69082 /* BogdanovSoundboard.app */;
+			productReference = 59B136D321555A6500D69082 /* Bogged.app */;
 			productType = "com.apple.product-type.application";
 		};
 		59B136E621555A6700D69082 /* BogdanovSoundboardTests */ = {
@@ -398,7 +395,6 @@
 				594D15DA21ADADC700049609 /* what.mp3 in Resources */,
 				594F85B721A44A740039B0A6 /* pompit.mp3 in Resources */,
 				594F85AD21A44A4F0039B0A6 /* dropvolume.mp3 in Resources */,
-				E1C1A2B7220A100E003694C5 /* GoogleService-Info.plist in Resources */,
 				594D15F721ADB5BE00049609 /* quake3.mp3 in Resources */,
 				59B136E121555A6700D69082 /* LaunchScreen.storyboard in Resources */,
 				594F85AF21A44A570039B0A6 /* oogaboga.mp3 in Resources */,
@@ -477,22 +473,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BogdanovSoundboard/Pods-BogdanovSoundboard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		93562F20328EAC3C54880908 /* [CP] Check Pods Manifest.lock */ = {
@@ -734,8 +723,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Ink...BogdanovSoundboard";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bogged;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -755,8 +745,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jan-Ink...BogdanovSoundboard";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bogged;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;

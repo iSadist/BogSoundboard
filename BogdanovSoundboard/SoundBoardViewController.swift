@@ -6,16 +6,15 @@ class SoundBoardViewController: UIViewController, GADBannerViewDelegate {
     
     var currentAudioPlayer: AVAudioPlayer?
 
-    @IBOutlet weak var bannerView: GADBannerView!
+    @IBOutlet weak var bannerView: DFPBannerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Setup ad banner view
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-7231554980858919/2939374325"
         bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        bannerView.load(DFPRequest())
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
